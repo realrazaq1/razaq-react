@@ -6,6 +6,15 @@ const Navbar = () => {
     const menuBtn = document.querySelector(".menu-btn");
     mainNav.classList.toggle("show");
     menuBtn.classList.toggle("fa-times");
+
+    document.body.addEventListener("click", (e) => {
+      if (e.target != menuBtn) {
+        if (mainNav.classList.contains("show")) {
+          mainNav.classList.remove("show");
+          menuBtn.classList.remove("fa-times");
+        }
+      }
+    });
   };
 
   return (
