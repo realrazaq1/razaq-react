@@ -184,7 +184,7 @@ a {
     padding-top: 20% !important;
   }
 
-  .about-text ul li {
+  .job-status li {
     font-size: 14px !important;
   }
 
@@ -206,12 +206,12 @@ a {
   }
 }
 @media screen and (max-width: 392px) {
-  .about-text ul li {
+  .job-status li {
     font-size: 12px !important;
     font-weight: 800 !important;
   }
 
-  .about-text ul li i {
+  .job-status li i {
     font-size: 0.5rem !important;
     padding: 0.4rem !important;
   }
@@ -222,6 +222,11 @@ a {
 
   .portfolio {
     padding: 5rem 0.6rem !important;
+  }
+
+  .about-text h2 {
+    font-size: 1.2rem !important;
+    width: 300px !important;
   }
 }
 

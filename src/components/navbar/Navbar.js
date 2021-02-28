@@ -8,7 +8,7 @@ const Navbar = () => {
     menuBtn.classList.toggle("fa-times");
 
     document.body.addEventListener("click", (e) => {
-      if (e.target != menuBtn) {
+      if (e.target !== menuBtn) {
         if (mainNav.classList.contains("show")) {
           mainNav.classList.remove("show");
           menuBtn.classList.remove("fa-times");

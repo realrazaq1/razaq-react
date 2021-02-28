@@ -15,6 +15,7 @@ footer h1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .contact-info {
@@ -48,11 +49,23 @@ footer h1 {
 .footer-bottom {
   display: flex;
   gap: 3rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .footer-bottom li i {
   font-size: 1.1rem;
   color: var(--primary-color);
   margin-right: 0.5rem;
+}
+
+.job-status li {
+  font-size: 1rem;
+}
+.job-status li i {
+  font-size: 1rem;
+  color: white;
+  margin-right: 0.5rem;
+  background-color: var(--primary-color);
+  padding: 0.6rem;
+  border-radius: 50%;
 }

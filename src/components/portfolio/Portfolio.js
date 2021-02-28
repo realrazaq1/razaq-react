@@ -4,52 +4,76 @@ import "./Portfolio.css";
 const Portfolio = () => {
   const porfolios = [
     {
-      image: "/img/msoft.PNG",
+      id: 1,
+      image:
+        "https://res.cloudinary.com/razaq/image/upload/v1614539022/mysite/msoft_taeqsl.png",
       title: "Microsoft Homepage",
       description:
         "I re-created Microsoft website homepage from scratch using HTML and CSS and a little bit of JavaScript",
       previewLink: "https://realrazaq1.github.io/microsoft/",
       gitHubCode: "https://github.com/realrazaq1/microsoft",
+      previewText: "Preview",
+      iconClass: "fas fa-eye",
     },
     {
-      image: "/img/mclub1.PNG",
+      id: 2,
+      image:
+        "https://res.cloudinary.com/razaq/image/upload/v1614539029/mysite/mclub1_nrtrdd.png",
       title: "MarioClub",
       description:
         "I created a website for a fictional club called MarioClub. The website is beautiful and responsive on mobile devices",
       previewLink: "https://realrazaq1.github.io/marioclub/",
       gitHubCode: "https://github.com/realrazaq1/marioclub",
+      previewText: "Preview",
+      iconClass: "fas fa-eye",
     },
     {
-      image: "/img/chekkify1.PNG",
+      id: 3,
+      image:
+        "https://res.cloudinary.com/razaq/image/upload/v1614539009/mysite/chekkify1_i0ucrq.png",
       title: "Chekkify",
       description:
         "Chekkify is a mobile application that you can use to check the network that a Nigerian phone number belongs to",
       previewLink: "/apk/chekkifyapp.apk",
       gitHubCode: "https://github.com/realrazaq1/chekkifymobile",
+      previewText: "Download App",
+      iconClass: "fas fa-download",
     },
     {
-      image: "/img/gpa-calc.png",
+      id: 4,
+      image:
+        "https://res.cloudinary.com/razaq/image/upload/v1614539027/mysite/gpa-calc_qga1uf.png",
       title: "GPA Calculator",
       description:
         "A web application that allow students of Federal University Lokoja to easily calculate their GPA (grade point average) for a particular semeter",
       previewLink: "https://gpa.razaq.xyz/",
       gitHubCode: "https://github.com/realrazaq1/gpa-calculator-v1",
+      previewText: "Preview",
+      iconClass: "fas fa-eye",
     },
     {
-      image: "/img/todoapp.png",
+      id: 5,
+      image:
+        "https://res.cloudinary.com/razaq/image/upload/v1614539031/mysite/todoapp_tyz94h.png",
       title: "Todo App",
       description:
         "Keep track of your daily activities with this easy to use todo web application.",
       previewLink: "https://realrazaq1.github.io/todoapp/",
       gitHubCode: "https://github.com/realrazaq1/todoapp",
+      previewText: "Preview",
+      iconClass: "fas fa-eye",
     },
     {
-      image: "/img/wtapp.png",
+      id: 6,
+      image:
+        "https://res.cloudinary.com/razaq/image/upload/v1614539034/mysite/wtapp_bgtd7z.png",
       title: "WorldTime App",
       description:
         "This web app allow you know the current time and date in different parts of the world",
       previewLink: "http://wtapp.razaq.xyz/",
       gitHubCode: "https://github.com/realrazaq1/wtapp",
+      previewText: "Preview",
+      iconClass: "fas fa-eye",
     },
   ];
 
@@ -59,11 +83,14 @@ const Portfolio = () => {
       <div className="portfolio-content">
         {porfolios.map((portfolio) => (
           <PortfolioCard
+            key={portfolio.id}
             image={portfolio.image}
             title={portfolio.title}
             description={portfolio.description}
             previewLink={portfolio.previewLink}
             gitHubCode={portfolio.gitHubCode}
+            previewText={portfolio.previewText}
+            iconClass={portfolio.iconClass}
           />
         ))}
       </div>

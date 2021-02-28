@@ -18,31 +18,52 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h1>Let's Connect</h1>
+          <h1>Lets Connect</h1>
           <ul className="contact-info social">
             <li>
-              <a href="https://twitter.com/realrazaq1" target="_blank">
+              <a
+                href="https://twitter.com/realrazaq1"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="https://facebook.com/realrazaq1" target="_blank">
+              <a
+                href="https://facebook.com/realrazaq1"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="fab fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/realrazaq1" target="_blank">
+              <a
+                href="https://github.com/realrazaq1"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="fab fa-github"></i>
               </a>
             </li>
             <li>
-              <a href="https://facebook.com/realrazaq1" target="_blank">
+              <a
+                href="https://facebook.com/realrazaq1"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="fab fa-instagram"></i>
               </a>
             </li>
           </ul>
         </div>
       </div>
+      <ul className="job-status">
+        <li>
+          <i class="fas fa-briefcase"></i> Opened to freelance and Remote hire.
+        </li>
+      </ul>
       <ul className="footer-bottom">
         <li>&copy; 2021 - Razaq.</li>
         <li>

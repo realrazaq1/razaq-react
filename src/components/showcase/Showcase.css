@@ -1,5 +1,6 @@
 .showcase {
-  background: url("/src/img/gitech.jpg") no-repeat center center/cover;
+  background: url("https://res.cloudinary.com/razaq/image/upload/v1614539034/mysite/gitech_e1xjzj.jpg")
+    no-repeat center center/cover;
   height: 600px;
   position: relative;
 }

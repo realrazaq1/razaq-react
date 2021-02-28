@@ -25,6 +25,7 @@
   border-left: 5px solid var(--primary-color);
   padding-left: 20px;
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .about-text h2 {
@@ -36,17 +37,4 @@
 .about-text p {
   font-size: 1.2rem;
   line-height: 2em;
-  margin-bottom: 1.5rem;
-}
-
-.about-text ul li {
-  font-size: 1rem;
-}
-.about-text ul li i {
-  font-size: 1rem;
-  color: white;
-  margin-right: 0.5rem;
-  background-color: var(--primary-color);
-  padding: 0.6rem;
-  border-radius: 50%;
 }

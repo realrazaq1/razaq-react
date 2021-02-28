@@ -32,7 +32,10 @@ const Skills = () => {
           </ul>
         </div>
         <div className="skills-image">
-          <img src="/img/razsvg1.svg" alt="" />
+          <img
+            src="https://res.cloudinary.com/razaq/image/upload/v1614539027/mysite/razsvg1_tqumla.svg"
+            alt=""
+          />
         </div>
       </div>
     </section>

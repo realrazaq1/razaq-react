@@ -22,7 +22,8 @@ nav a {
 }
 
 .logo {
-  background: url("/src/img/raz1.jpg") no-repeat center center/cover;
+  background: url("https://res.cloudinary.com/razaq/image/upload/v1614539027/mysite/raz1_cyasok.jpg")
+    no-repeat center center/cover;
   width: 60px;
   height: 60px;
   border-radius: 50%;

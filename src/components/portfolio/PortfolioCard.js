@@ -6,6 +6,8 @@ const PortfolioCard = ({
   description,
   previewLink,
   gitHubCode,
+  previewText,
+  iconClass,
 }) => {
   return (
     <div className="porfolio-card">
@@ -14,19 +16,21 @@ const PortfolioCard = ({
       <p>{description}</p>
       <a
         href={previewLink}
-        className="portfolio-btn btn"
+        class="portfolio-btn btn"
         download
         target="_blank"
+        rel="noreferrer"
       >
-        <i class="fas fa-eye"></i>
+        <i className={iconClass}></i> {previewText}
       </a>
       <a
         href={gitHubCode}
         className="portfolio-btn btn"
         download
         target="_blank"
+        rel="noreferrer"
       >
-        <i class="fas fa-code"></i>
+        <i className="fas fa-code"></i> Code
       </a>
     </div>
   );
