@@ -1,13 +1,232 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --primary-color: #190d4d;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1106px) {
+  .about,
+  .portfolio,
+  footer {
+    padding: 5rem 2rem !important;
+  }
+}
+
+@media screen and (max-width: 1036px) {
+  .footer-top {
+    grid-template-columns: 1fr !important;
+  }
+
+  .about-text h2 {
+    font-size: 1.8rem !important;
+  }
+
+  .about-text p {
+    font-size: 1rem !important;
+  }
+
+  .skills {
+    padding: 5rem 2rem !important;
+  }
+}
+@media screen and (max-width: 930px) {
+  .skills-content {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .skills-image {
+    text-align: center !important;
+  }
+
+  .skills-image img {
+    width: 500px !important;
+  }
+
+  .about-content {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .about-image {
+    text-align: center !important;
+  }
+
+  .about-image img {
+    width: 400px !important;
+  }
+
+  .portfolio-content {
+    grid-template-columns: 1fr !important;
+  }
+
+  .showcase-content {
+    max-width: 70% !important;
+  }
+
+  .skills-image img {
+    width: 350px !important;
+  }
+
+  /* mobile menu */
+  .menu-btn {
+    display: block !important;
+  }
+  .main-nav {
+    display: block !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: -400px !important;
+    transition: left 0.5s ease-in;
+    background-color: #2b187e !important;
+    width: 30% !important;
+    height: 100% !important;
+    padding-top: 3rem !important;
+    padding-left: 1.5rem !important;
+  }
+
+  .main-nav li {
+    font-size: 1.2rem !important;
+    line-height: 2.7em;
+  }
+
+  .mobile-logo {
+    display: block !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .show {
+    left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .main-nav {
+    width: 35% !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .showcase-content h1 {
+    font-size: 5rem !important;
+    width: 350px !important;
+  }
+
+  .showcase-content p {
+    font-size: 1.7rem !important;
+  }
+
+  .tools {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .about-image img {
+    width: 300px !important;
+  }
+
+  .skills-text {
+    padding-right: 0.5rem !important;
+  }
+
+  .skills-text p,
+  .tools li {
+    font-size: 1.1rem !important;
+  }
+
+  footer h1 {
+    font-size: 1.1rem !important;
+  }
+
+  footer {
+    padding: 5rem 1rem !important;
+  }
+
+  .contact-info:not(.social) {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .main-nav {
+    width: 40% !important;
+  }
+
+  .logo {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .main-nav {
+    width: 48% !important;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .showcase-content {
+    padding-top: 20% !important;
+  }
+
+  .about-text ul li {
+    font-size: 14px !important;
+  }
+
+  .showcase-content {
+    max-width: 100% !important;
+  }
+
+  .about-text {
+    padding-right: 0.7rem !important;
+  }
+
+  .about-image img,
+  .skills-image img {
+    width: 250px !important;
+  }
+
+  .main-nav {
+    width: 60% !important;
+  }
+}
+@media screen and (max-width: 392px) {
+  .about-text ul li {
+    font-size: 12px !important;
+    font-weight: 800 !important;
+  }
+
+  .about-text ul li i {
+    font-size: 0.5rem !important;
+    padding: 0.4rem !important;
+  }
+
+  .showcase-content h1 {
+    width: 260px !important;
+  }
+
+  .portfolio {
+    padding: 5rem 0.6rem !important;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .main-nav {
+    width: 70% !important;
+  }
 }

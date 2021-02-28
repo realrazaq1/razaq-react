@@ -1,0 +1,40 @@
+.showcase {
+  background: url("/src/img/gitech.jpg") no-repeat center center/cover;
+  height: 600px;
+  position: relative;
+}
+
+.showcase::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #190d4dcc;
+  box-shadow: inset 100px 100px 250px #190d4dcc,
+    inset -100px -100px 250px #190d4dcc;
+}
+
+.showcase-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  max-width: 55%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.showcase-content h1 {
+  font-size: 7rem;
+  border-bottom: 5px solid white;
+  display: inline-block;
+  width: 560px;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.showcase-content p {
+  font-size: 2.5rem;
+}

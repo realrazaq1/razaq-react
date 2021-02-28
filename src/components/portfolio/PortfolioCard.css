@@ -1,0 +1,40 @@
+.porfolio-card {
+  background: #f1f0f0;
+  padding: 1.5rem 1rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.porfolio-card img {
+  width: 100%;
+  border: 1px dashed var(--primary-color);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.porfolio-card img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in;
+}
+
+.porfolio-card h2 {
+  color: var(--primary-color);
+  margin: 1rem 0;
+}
+
+.porfolio-card p {
+  font-size: 1.1rem;
+  line-height: 1.8em;
+  margin-bottom: 1rem;
+}
+
+.porfolio-card a {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-right: 1.4rem;
+}
+
+.porfolio-card a:hover {
+  position: relative;
+  left: -1px;
+}

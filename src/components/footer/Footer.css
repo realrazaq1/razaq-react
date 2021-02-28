@@ -1,0 +1,58 @@
+footer {
+  background: #ccc;
+  padding: 5rem 4rem;
+}
+
+footer h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  border-left: 5px solid var(--primary-color);
+  padding-left: 20px;
+  margin-bottom: 2rem;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.contact-info {
+  display: flex;
+  gap: 2rem;
+}
+
+.contact-info li a {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+.contact-info li a:hover {
+  text-decoration: underline;
+}
+
+.contact-info li i {
+  font-size: 1rem;
+  color: white;
+  margin-right: 0.5rem;
+  background-color: var(--primary-color);
+  padding: 0.6rem;
+  border-radius: 50%;
+}
+
+.contact-info li i:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in;
+}
+
+.footer-bottom {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.footer-bottom li i {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+}

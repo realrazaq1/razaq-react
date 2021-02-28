@@ -1,0 +1,17 @@
+.portfolio {
+  padding: 5rem;
+}
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.portfolio h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  border-left: 5px solid var(--primary-color);
+  padding-left: 20px;
+  margin-bottom: 3rem;
+}
