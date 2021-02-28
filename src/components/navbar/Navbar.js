@@ -3,7 +3,9 @@ import "./Navbar.css";
 const Navbar = () => {
   const handleMenu = () => {
     const mainNav = document.querySelector(".main-nav");
+    const menuBtn = document.querySelector(".menu-btn");
     mainNav.classList.toggle("show");
+    menuBtn.classList.toggle("fa-times");
   };
 
   return (
