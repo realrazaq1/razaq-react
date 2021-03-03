@@ -33,7 +33,7 @@ const Skills = () => {
         </div>
         <div className="skills-image">
           <img
-            src="https://res.cloudinary.com/razaq/image/upload/v1614539027/mysite/razsvg1_tqumla.svg"
+            src="https://ik.imagekit.io/razaq/mysite/razsvg1_pzNT6YlK4ohm.svg"
             alt=""
           />
         </div>

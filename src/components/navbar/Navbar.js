@@ -19,14 +19,14 @@ const Navbar = () => {
 
   return (
     <nav>
-      <a href="#">
+      <a href="">
         <div className="logo-wrapper">
           <div className="logo"></div>
           <h1>Razaq</h1>
         </div>
       </a>
       <ul className="main-nav">
-        <a href="#" className="mobile-logo">
+        <a href="" className="mobile-logo">
           <div className="logo-wrapper">
             <div className="logo"></div>
             <h1>Razaq</h1>
@@ -34,7 +34,7 @@ const Navbar = () => {
         </a>
 
         <li>
-          <a href="#">
+          <a href="">
             <i class="fas fa-home"></i> Home
           </a>
         </li>

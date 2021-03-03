@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-content">
         <div className="about-image">
           <img
-            src="https://res.cloudinary.com/razaq/image/upload/v1614539027/mysite/raz1_cyasok.jpg"
+            src="https://ik.imagekit.io/razaq/mysite/raz1_Sn23ND99-.jpg"
             alt=""
           />
         </div>

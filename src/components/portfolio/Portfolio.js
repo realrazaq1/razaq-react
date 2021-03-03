@@ -5,8 +5,7 @@ const Portfolio = () => {
   const porfolios = [
     {
       id: 1,
-      image:
-        "https://res.cloudinary.com/razaq/image/upload/v1614539022/mysite/msoft_taeqsl.png",
+      image: "https://ik.imagekit.io/razaq/mysite/msoft__muN-hTyT.PNG",
       title: "Microsoft Homepage",
       description:
         "I re-created Microsoft website homepage from scratch using HTML and CSS and a little bit of JavaScript",
@@ -17,8 +16,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      image:
-        "https://res.cloudinary.com/razaq/image/upload/v1614539029/mysite/mclub1_nrtrdd.png",
+      image: "https://ik.imagekit.io/razaq/mysite/mclub1_cXGjBtplLKKV.PNG",
       title: "MarioClub",
       description:
         "I created a website for a fictional club called MarioClub. The website is beautiful and responsive on mobile devices",
@@ -29,8 +27,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      image:
-        "https://res.cloudinary.com/razaq/image/upload/v1614539009/mysite/chekkify1_i0ucrq.png",
+      image: "https://ik.imagekit.io/razaq/mysite/chekkify1_90262SyBM.PNG",
       title: "Chekkify",
       description:
         "Chekkify is a mobile application that you can use to check the network that a Nigerian phone number belongs to",
@@ -41,8 +38,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      image:
-        "https://res.cloudinary.com/razaq/image/upload/v1614539027/mysite/gpa-calc_qga1uf.png",
+      image: "https://ik.imagekit.io/razaq/mysite/gpa-calc_QZwqaAZvz.png",
       title: "GPA Calculator",
       description:
         "A web application that allow students of Federal University Lokoja to easily calculate their GPA (grade point average) for a particular semeter",
@@ -53,8 +49,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      image:
-        "https://res.cloudinary.com/razaq/image/upload/v1614539031/mysite/todoapp_tyz94h.png",
+      image: "https://ik.imagekit.io/razaq/mysite/todoapp_LKM2Y546S.png",
       title: "Todo App",
       description:
         "Keep track of your daily activities with this easy to use todo web application.",
@@ -65,8 +60,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      image:
-        "https://res.cloudinary.com/razaq/image/upload/v1614539034/mysite/wtapp_bgtd7z.png",
+      image: "https://ik.imagekit.io/razaq/mysite/wtapp_rIMX5W6Ab7lR.png",
       title: "WorldTime App",
       description:
         "This web app allow you know the current time and date in different parts of the world",

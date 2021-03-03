@@ -11,12 +11,26 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  /* scroll-snap-type: y mandatory; */
 }
 
 /* Media Queries */
