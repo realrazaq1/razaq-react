@@ -1,20 +1,12 @@
 import "./Loader.css";
-import { useEffect } from "react";
+import Bounce1 from "../spinners/Bounce1";
 
 const Loader = () => {
-  useEffect(() => {
-    const loader = document.querySelector(".loader");
-    window.onload = () => {
-      setTimeout(() => {
-        loader.style.top = "-1000px";
-      }, 5000);
-    };
-  });
-
   return (
     <div className="loader">
       <div className="loader-image"></div>
-      <p>Loading...</p>
+      <h2>Razaq</h2>
+      <Bounce1 />
     </div>
   );
 };
