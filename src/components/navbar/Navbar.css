@@ -22,7 +22,7 @@ nav a {
 }
 
 .logo {
-  background: url("https://ik.imagekit.io/razaq/mysite/raz1_Sn23ND99-.jpg")
+  background: url("https://ik.imagekit.io/razaq/mysite/raz-200px_ilmUgK_6g.JPG")
     no-repeat center center/cover;
   width: 60px;
   height: 60px;
@@ -34,7 +34,7 @@ nav a {
 }
 
 .menu-btn {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   cursor: pointer;
   position: absolute;

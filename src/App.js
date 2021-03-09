@@ -18,7 +18,7 @@ function App() {
 
     setTimeout(() => {
       loader.style.left = "-2000px";
-    }, 3000);
+    }, 7000);
   };
 
   return (

@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-content">
         <div className="about-image">
           <img
-            src="https://ik.imagekit.io/razaq/mysite/raz1_Sn23ND99-.jpg"
+            src="https://ik.imagekit.io/razaq/mysite/raz-500px_AsNdFpdkbENf.JPG"
             alt=""
           />
         </div>
