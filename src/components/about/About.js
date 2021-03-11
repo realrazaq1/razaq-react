@@ -11,13 +11,16 @@ const About = () => {
           />
         </div>
         <div className="about-text">
-          <h1>About me</h1>
+          <h1>About</h1>
 
-          <h2>My name is RAZAQ. I'm a Web Developer && Instructor.</h2>
+          {/* <h2>I'm Razaq - Front-end Engineer</h2> */}
           <p>
-            I build beautiful, interactive, user-friendly and responsive
-            websites. I also teach people how to code. I've taught over 30
-            people both young and old how to build amazing websites.
+            A technically savvy web developer, who has website development
+            expertise behind him. Razaq can be a strong driving force for
+            improving the performance, scalability and reliability of
+            development projects. He has a long track record of creating
+            dynamic, rich, user-friendly and responsive websites and providing
+            long term solutions to front-end problems
           </p>
         </div>
       </div>

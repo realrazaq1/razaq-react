@@ -6,7 +6,7 @@ const Showcase = () => {
       <div className="showcase-content">
         <p>I'm</p>
         <h1>RAZAQ</h1>
-        <p>Web Developer && Instructor</p>
+        <p>Front-end Engineer</p>
       </div>
     </section>
   );

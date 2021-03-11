@@ -4,18 +4,40 @@ import "./Portfolio.css";
 const Portfolio = () => {
   const porfolios = [
     {
-      id: 1,
+      id: "36264727-8268-11eb-a4d8-a90aff5c32df",
+      image: "https://ik.imagekit.io/razaq/mysite/realnaps_IKiVanYe7Gwv.JPG",
+      title: "Realnaps",
+      description:
+        "I re-created realnaps.com website from scratch with a better look and feel. The website is beautiful and responsive on all devices",
+      previewLink: "https://realrazaq1.github.io/realnaps/",
+      gitHubCode: "https://github.com/realrazaq1/realnaps",
+      previewText: "Preview",
+      iconClass: "fas fa-eye",
+    },
+    {
+      id: "36264721-8268-11eb-a4d8-a90aff5c32df",
       image: "https://ik.imagekit.io/razaq/mysite/msoft_wF-vdYdqVvO5.JPG",
       title: "Microsoft Homepage",
       description:
-        "I re-created Microsoft website homepage from scratch using HTML and CSS and a little bit of JavaScript",
+        "I re-created Microsoft website homepage from scratch. The website is nice and responsive on all devices",
       previewLink: "https://realrazaq1.github.io/microsoft/",
       gitHubCode: "https://github.com/realrazaq1/microsoft",
       previewText: "Preview",
       iconClass: "fas fa-eye",
     },
     {
-      id: 2,
+      id: "36264720-8268-11eb-a4d8-a90aff5c32df",
+      image: "https://ik.imagekit.io/razaq/mysite/netflix_-z9owczehW.JPG",
+      title: "Netflix Landing Page",
+      description:
+        "I re-created Netflix landing page from scratch. The website is nice and responsive on all devices",
+      previewLink: "https://realrazaq1.github.io/netflix/",
+      gitHubCode: "https://github.com/realrazaq1/netflix",
+      previewText: "Preview",
+      iconClass: "fas fa-eye",
+    },
+    {
+      id: "36264722-8268-11eb-a4d8-a90aff5c32df",
       image: "https://ik.imagekit.io/razaq/mysite/mclub_8tlRPS3t01.JPG",
       title: "MarioClub",
       description:
@@ -26,18 +48,18 @@ const Portfolio = () => {
       iconClass: "fas fa-eye",
     },
     {
-      id: 3,
+      id: "36264723-8268-11eb-a4d8-a90aff5c32df",
       image: "https://ik.imagekit.io/razaq/mysite/chekkify_uM6Rz1ZulbNg.JPG",
       title: "Chekkify",
       description:
-        "Chekkify is a mobile application that you can use to check the network that a Nigerian phone number belongs to",
+        "Chekkify is a mobile application that you can use to check the network that a Nigerian phone number belongs to. The app is built with Flutter",
       previewLink: "/apk/chekkifyapp.apk",
       gitHubCode: "https://github.com/realrazaq1/chekkifymobile",
       previewText: "Download App",
       iconClass: "fas fa-download",
     },
     {
-      id: 4,
+      id: "36264724-8268-11eb-a4d8-a90aff5c32df",
       image: "https://ik.imagekit.io/razaq/mysite/gap-calc_kQQVu6c-YH.JPG",
       title: "GPA Calculator",
       description:
@@ -48,7 +70,7 @@ const Portfolio = () => {
       iconClass: "fas fa-eye",
     },
     {
-      id: 5,
+      id: "36264725-8268-11eb-a4d8-a90aff5c32df",
       image: "https://ik.imagekit.io/razaq/mysite/todoapp_uqoaJ84Bu.JPG",
       title: "Todo App",
       description:
@@ -59,7 +81,7 @@ const Portfolio = () => {
       iconClass: "fas fa-eye",
     },
     {
-      id: 6,
+      id: "36264726-8268-11eb-a4d8-a90aff5c32df",
       image: "https://ik.imagekit.io/razaq/mysite/wtapp_MzuF3IdQxt2K.JPG",
       title: "WorldTime App",
       description:
@@ -73,7 +95,7 @@ const Portfolio = () => {
 
   return (
     <section className="portfolio" id="portfolio">
-      <h1>My Portfolio</h1>
+      <h1>Portfolio</h1>
       <div className="portfolio-content">
         {porfolios.map((portfolio) => (
           <PortfolioCard
